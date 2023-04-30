@@ -1,0 +1,34 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+body{
+   background-color: antiquewhite;
+   display: flex;
+   align-items: center;
+}
+
+#play-screen{
+    height: 100px;
+    width: 100px;
+    padding: 50px;
+    background-color: black;
+}
+
+#buttons{
+    height: 100px;
+    width: 100px;
+    background-color: white;
+}
+.center {
+    position: absolute;
+    width: 100px;
+    height: 50px;
+    top: 40%;
+    left: 50%;
+    margin-left: -50px; /* margin is -0.5 * dimension */
+    margin-top: -25px; 
+}
